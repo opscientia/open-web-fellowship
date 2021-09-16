@@ -1,11 +1,21 @@
 # Opscientia Open Web Fellowship: \<PROJECT TITLE>
-  name: \<name>, email: \<email address>, location: \<location>, timezone: \<timezone>, discordID: \<discord id>, discourseID: 
-  \<discourse id>, current role: \<student, degree, institution, class>
+  name: Kinshuk Kashyap
+  email: kinshukkashyap.me@gmail.com
+  location: Hyderabad, India
+  timezone: UTC+5:30
+  discordID: kinshuk#6026
+  discourseID: kinshuk on hack.opsci.io
+  current role: Student, B.Tech. Computer Science & Engineering, National Institute of Technology Karnataka, Class of 2022
   
-  mentor: \<mentor>, category: <cloud-services/semantic-web/token-community/other>
+  mentor: Shady el Damaty, category: storage infrastructure, DeSci tooling, tokens
   
   ## Overview
-  What is the goal of the project? Why is this important? What problems will it solve?
+  Work on the textile grant for multi-tiered storage on filecoin and IPFS. Create a dashboard for reseachers to add data to IPFS storage, with the option to also store redundantly on Filecoin -> this would include seeing level of redundancy, number of miners storing data, time left in storage deal, etc.
+  Along with this, perform benchmark tests for the storage pipeline.
+  
+  Metadata parsing for datalad in the backend, + work on prototype hosted DataLad service (use datalad through an API)
+  
+  Build a suite of DeSci tools optimized for easy integration with the larger web3 ecosystem.
   
   ## Implementation Plan
   How will the work proceed in general? 
