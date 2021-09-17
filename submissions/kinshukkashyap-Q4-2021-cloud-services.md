@@ -1,13 +1,13 @@
-# Opscientia Open Web Fellowship: \<PROJECT TITLE>
-  name: Kinshuk Kashyap
-  email: kinshukkashyap.me@gmail.com
-  location: Hyderabad, India
-  timezone: UTC+5:30
-  discordID: kinshuk#6026
-  discourseID: kinshuk on hack.opsci.io
-  current role: Student, B.Tech. Computer Science & Engineering, National Institute of Technology Karnataka, Class of 2022
-  
-  mentor: Shady el Damaty, category: storage infrastructure, DeSci tooling, tokens
+# Opscientia Open Web Fellowship: Building the storage infrastructure and iterating on researcher tools for Science on Web3
+  name: Kinshuk Kashyap\
+  email: kinshukkashyap.me@gmail.com\
+  location: Hyderabad, India\
+  timezone: UTC+5:30\
+  discordID: kinshuk#6026\
+  discourseID: kinshuk on hack.opsci.io\
+  current role: Student, B.Tech. Computer Science & Engineering, National Institute of Technology Karnataka, Class of 2022\
+  mentor: Shady el Damaty\
+  category: cloud-services
   
   ## Overview
   Work on the textile grant for multi-tiered storage on filecoin and IPFS. Create a dashboard for reseachers to add data to IPFS storage, with the option to also store redundantly on Filecoin -> this would include seeing level of redundancy, number of miners storing data, time left in storage deal, etc.
@@ -62,10 +62,11 @@ Why are you working on this project?
 How does your background make you a good fit for this project?
 
 ### Working time and commitments
-How much time do you plan to committ to this? Are there potential conflicts? How will you navigate issues if you reach a block and can't continue on your own?
+20-25hrs per week. I'll communicate any conflicts well in advance, and ensure milestones are met on time.
 
 ### Curricula Vitae
-(link to your CV, social media, or portfolio)
+- [LinkedIn](linkedin.com/in/kinshuk-kashyap)
+- [Twitter](twitter.com/kashyap_kinshuk)
 
 ### References
 Please list any references, software packages, or other resources in APA format
