@@ -60,7 +60,7 @@ We are a decentralised community seeking to capture the diversity of knowledge c
 ## How to Apply
 Applicants must construct a proposal by:
 1) forking the Open Web Fellowship Proposal repository and submitting, 
-2) Copy  `open-web-fellowship-template.md`, and rename the file as `name-quarter-year-category.md`. Valid categories are `cloud-services`, `semantic-science-web`, `token-communities`, `other`. 
+2) Copy  `open-web-fellowship-template.md`, and rename the file as `name-quarter-year-category.md`. Valid categories are `cloud-services`, `semantic-web`, `token-communities`, `other`. 
 3) Fill in your project, and submit a pull-request. The team will review this for basic information and will merge it with the repository when it passes basic quality checks.
 4) Post your proposal on the [Opscientia DAO Governance Forum](hack.opsci.io) in the #open-web-fellowship category for feedback from the community on clarity, alignment with the Opscientia Mission, execution plan, and feasibility. 
 
