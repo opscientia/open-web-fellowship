@@ -10,7 +10,7 @@
   category: cloud-services\
   
   ## Overview
-  Work on the textile grant for multi-tiered storage on filecoin and IPFS. Create a dashboard for reseachers to add data to IPFS storage, with the option to also store redundantly on Filecoin -> this would include seeing level of redundancy, number of miners storing data, time left in storage deal, etc.
+  I work on multi-tiered storage based on filecoin and IPFS, as part of the textile haggle grant. Create a dashboard for reseachers to add data to IPFS storage, with the option to also store redundantly on Filecoin -> this would include seeing level of redundancy, number of miners storing data, time left in storage deal, etc.
   Along with this, perform benchmark tests for the storage pipeline.
   
   Metadata parsing for datalad in the backend, + work on prototype hosted DataLad service (use datalad through an API)
@@ -24,19 +24,21 @@
   What are the general minimum deliverables? How do they address the goal?
   
   #### Work on Textile Grant for multi-tiered storage
+  This will involve working through the milestones for increasing amounts of data stored on filecoin through deals, eventually building up to 250TB+ of data. The main objective is to build out and iterate the flow of the storage backend, which will form the data layer of the open science bay.
+  
+  I will test out different server configurations and pipelines, and perform rigorous benchmarks for data ingress/egress, redundancy, node discoverability, etc.
+  
   What is the first aim of the project? List the software packages you will be using. Provide examples of workflow or code to test this aim. Use flowcharts when necessary to communicate complex ideas.  What are your expected results? How will you interpret these results? 
   
   #### Researcher dashboard - metrics, uploading, validation of data
-  Describe the next aim.
+  This will be targeting the collaboration with DANDI. From the perspective of the user (researcher), this dashboard will facilitate uploading data to different web3 storage infrastructures. By default, data will be stored on IPFS-based textile storage, but the user will also have the option to order long-term, redundant storage on filecoin.
+  
   
   #### Extraction of DataLad metadata for discoverability
-  Describe the next aim.
-  
-  #### Researcher dashboard - metrics, uploading, validation of data
-  Describe the next aim.
+  All datalad datasets have a shallow component (the structure and metadata) and the deep component (the actual raw data readings). The majority of storage and transfer costs are due to the raw component due to its size. (Dig Up notes from meetings :) )
   
   #### Tools and utilities for Web3 Science
-  Describe the next aim.
+  Datawallet, Identity stuff - probably using ERC1155 or related standards. Research data object.
   
   ### Timeline 
   Sep 20 - Dec 12 (12 weeks)
