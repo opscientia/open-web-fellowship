@@ -1,13 +1,13 @@
-# Opscientia Open Web Fellowship: Building the storage infrastructure and iterating on researcher tools for Science on Web3
+# Opscientia Open Web Fellowship: Building out storage infrastructure and iterating on researcher tools for Science on Web3
   name: Kinshuk Kashyap\
-  email: kinshukkashyap.me@gmail.com\
+  email: kinshukkashyap.me@gmail.com, kinshuk@opscientia.com\
   location: Hyderabad, India\
   timezone: UTC+5:30\
   discordID: kinshuk#6026\
   discourseID: kinshuk on hack.opsci.io\
   current role: Student, B.Tech. Computer Science & Engineering, National Institute of Technology Karnataka, Class of 2022\
   mentor: Shady el Damaty\
-  category: cloud-services
+  category: cloud-services\
   
   ## Overview
   Work on the textile grant for multi-tiered storage on filecoin and IPFS. Create a dashboard for reseachers to add data to IPFS storage, with the option to also store redundantly on Filecoin -> this would include seeing level of redundancy, number of miners storing data, time left in storage deal, etc.
@@ -23,14 +23,23 @@
   ### Minimum Deliverables
   What are the general minimum deliverables? How do they address the goal?
   
-  #### Aim/Deliverable 1
+  #### Work on Textile Grant for multi-tiered storage
   What is the first aim of the project? List the software packages you will be using. Provide examples of workflow or code to test this aim. Use flowcharts when necessary to communicate complex ideas.  What are your expected results? How will you interpret these results? 
   
-  #### Aim/Deliverable 2
+  #### Researcher dashboard - metrics, uploading, validation of data
+  Describe the next aim.
+  
+  #### Extraction of DataLad metadata for discoverability
+  Describe the next aim.
+  
+  #### Researcher dashboard - metrics, uploading, validation of data
+  Describe the next aim.
+  
+  #### Tools and utilities for Web3 Science
   Describe the next aim.
   
   ### Timeline 
-  Describe the timeline in brief. Then fill out the table below describing how you will break up work over the period of the fellowship.
+  Sep 20 - Dec 12 (12 weeks)
 
 | Week      | Activity |
 | ----------- | ----------- |
@@ -48,7 +57,7 @@
 | 12      | Deliverable : Description of work,   **Submit Final Report + Code/Materials on Discourse #pulse**    |
 
 ### Plan for Communication with Mentor
-What is the plan to communicate with your mentor? What forms will you use and how regularly will you meet?
+I'll communicate via Discord and Email. We will do at least weekly video check-ins for discussing blockers or next steps.
 
 ### Plans to Continue with Project
 Are you interested in continuing to work on the project, either as a support role or expanding activities/features?
