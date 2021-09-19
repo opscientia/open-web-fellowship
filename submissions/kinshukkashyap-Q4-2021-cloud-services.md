@@ -31,11 +31,15 @@
   What is the first aim of the project? List the software packages you will be using. Provide examples of workflow or code to test this aim. Use flowcharts when necessary to communicate complex ideas.  What are your expected results? How will you interpret these results? 
   
   #### Researcher dashboard - metrics, uploading, validation of data
-  This will be targeting the collaboration with DANDI. From the perspective of the user (researcher), this dashboard will facilitate uploading data to different web3 storage infrastructures. By default, data will be stored on IPFS-based textile storage, but the user will also have the option to order long-term, redundant storage on filecoin.
+  This will be targeting the collaboration with DANDI. From the perspective of the user (researcher), this dashboard will facilitate uploading data to different web3 storage infrastructures. By default, data will be stored on IPFS-based textile storage, but the user will also have the option to order long-term, redundant storage on filecoin. In the back-end, I'll use powergate for storage deals and tracking metrics (redundancy, availability, etc).
   
   
   #### Extraction of DataLad metadata for discoverability
   All datalad datasets have a shallow component (the structure and metadata) and the deep component (the actual raw data readings). The majority of storage and transfer costs are due to the raw component due to its size. (Dig Up notes from meetings :) )
+  
+  This milestone will focus on constructing a unified index of open datalad datasets from Web2. This will allow searchability by metadata content, tags, size etc. like an elasticsearch for the universe of open access datasets. There will be an option to cache such datasets locally, and publish to web3 storage (Hosted IPFS on Textile, redundant long term on Filecoin). I will focus with the list hosted at datasets.datalad.org, with the medium term vision being to construct an OpenNeuro-like index of datasets on Web3 storage. 
+  
+  The long term goal is to make a decentralized index of datasets from all scientific disciplines. If we combine this with datalad's versioning capabilities and proof-of-publication and provenance tracking using tools like Ceramic/Textile, we can build a decentralized history of contributions and participation for scientific research.
   
   #### Tools and utilities for Web3 Science
   Datawallet, Identity stuff - probably using ERC1155 or related standards. Research data object.
