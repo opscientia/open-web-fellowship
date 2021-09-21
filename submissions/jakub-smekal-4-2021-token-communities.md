@@ -1,6 +1,6 @@
 # Opscientia Open Web Fellowship: \<PROJECT TITLE>
-  name: Jakub Smekal, email: jakub.smekal@gmail.com, location: Durham, United Kingdom, timezone: GMT, discordID: \<discord id>, discourseID: 
-  \<discourse id>, current role: student, Natural Sciences, Durham University, 2nd year
+  name: Jakub Smekal, email: jakub.smekal@gmail.com, location: Durham, United Kingdom, timezone: GMT, discordID: #3317, discourseID: 
+  smejak, current role: student, Natural Sciences, Durham University, 2nd year
   
   mentor: Shady El Damaty, category: token-community
   
