@@ -37,6 +37,9 @@
 | 11      | Deliverable : Description of work       |
 | 12      | Deliverable : Description of work,   **Submit Final Report + Code/Materials on Discourse #pulse**    |
 
+### Ethical Review
+Does your work involve human or animal subjects? If so, has your work been approved by an Institutional Review Board or gone through any Ethical Review process? If so, please provide a link to your IRB/Ethical Review protocol.
+
 ### Plan for Communication with Mentor
 What is the plan to communicate with your mentor? What forms will you use and how regularly will you meet?
 
