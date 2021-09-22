@@ -59,13 +59,13 @@ We are a decentralised community seeking to capture the diversity of knowledge c
 ---------
 ## How to Apply
 Applicants must construct a proposal by:
-1) forking the Open Web Fellowship Proposal repository and submitting, 
-2) Copy  `open-web-fellowship-template.md`, and rename the file as `name-quarter-year-category.md`. Valid categories are `cloud-services`, `semantic-web`, `token-communities`, `other`. 
-3) Fill in your project, and submit a pull-request. The team will review this for basic information and will merge it with the repository when it passes basic quality checks.
+1) First [forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the Open Web Fellowship Proposal repository to your personal account. This will let you make changes on your own version of the repository.
+2) [Create a folder](https://github.community/t/add-a-folder/2304) under submissions and title it `name-quarter-year-category`. Next copy  `open-web-fellowship-template.md`, and rename the file as `name-quarter-year-category.md`. Valid categories are `cloud-services`, `semantic-web`, `token-communities`, `other`. 
+3) Fill in your project, delete the filler text and submit a pull-request. The team will review this for basic information and will merge it with the repository when it passes basic quality checks.
 4) Post your proposal on the [Opscientia DAO Governance Forum](hack.opsci.io) in the #open-web-fellowship category for feedback from the community on clarity, alignment with the Opscientia Mission, execution plan, and feasibility. 
 
 ### Proposal Evaluation Period
-A period of is provided for feedback and refining the proposal. Final evaluation is performed over a voting period by the Opscientia DAO. The top proposals are selected based on the amount of funding available for the current cycle of applications. Fellows with a positive history with the DAO may qualify for higher funding levels for their project.
+A period is provided for feedback and refining the proposal. Final evaluation is performed over a voting period by the Opscientia DAO. The top proposals are selected based on the amount of funding available for the current cycle of applications. Fellows with a positive history with the DAO may qualify for higher funding levels for their project.
 
 ⭐️ Applications are rolling through 2021. Submit now 🍴
 
