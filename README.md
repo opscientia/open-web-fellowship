@@ -72,7 +72,7 @@ A period is provided for feedback and refining the proposal. Final evaluation is
 ### Questions? Hop in our discord for immediate feedback 👇
 [![Opscientia](https://img.shields.io/discord/819266495972507699.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/S3uDbdFKA9)
 
-Contributing
+### Contributing
 Please help improve this application! All contributions are welcome and will be credited. Here are some ways you can help out!
 
 If you spot an error (e.g., typo, bug, inaccurate descriptions, etc.), or have an idea about how this application can be better please open a new issue on GitHub by clicking on the GitHub Icon in the top right corner on any page and selecting "open issue".
