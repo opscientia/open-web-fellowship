@@ -5,7 +5,6 @@
   mentor: Shady El Damaty, category: token-community
   
   ## Overview
-  What is the goal of the project? Why is this important? What problems will it solve?
 
   The goal of this project is to research value representation in a decentralized science ecosystem that incentivizes active participation in high-quality scientific research and the community that benefits from it. 
   
@@ -15,7 +14,7 @@
   
   
   ## Implementation Plan
-  How will the work proceed in general?
+
   This project will identify the key commodities in a decentralized science ecosystem, which are subsequently going to be used to construct the system's objective function. The objective function is essentially the goal of the system as a whole and it determines the actions that should to be taken by different stakeholders and the rewards that each stakeholder receives for participating. For further details, I recommend [this article](https://blog.oceanprotocol.com/token-engineering-case-studies-b44267e68f4) from the Ocean Protocol.
 
   Using the TokenSPICE simulator, I will design and run simulations for different token ecosystems with multiple agents to test the system's longevity and expansive potential. For this, I will need to define the goals of a decentralized science system and the corresponding KPIs that will be used to measure that. TokenSPICE already offers a wide variety of agents that can be used to model different token systems.
@@ -37,12 +36,10 @@
   Steps 3-6 can be repeated several times.
   
   ### Minimum Deliverables
-  What are the general minimum deliverables? How do they address the goal?
 
   The minimum outcome of this research will be a report on the findings from the various token community simulations. The report should serve as not only an overview of the possible token ecosystems for optimal research incentives, but also as a guide for anyone wanting to conduct similar research, since TokenSPICE is a relatively new tool and still under development.
   
   #### Aim/Deliverable 1
-  What is the first aim of the project? List the software packages you will be using. Provide examples of workflow or code to test this aim. Use flowcharts when necessary to communicate complex ideas. What are your expected results? How will you interpret these results?
 
   The first aim of this project is to concretely define the objective function of an open science system and develop different multi-agent communities centered around a token. Furthermore, this project will look into tokens as a representation of value for different commodities, such as computing or storage, to determine whether it is better to have a single token for everything, or perhaps different tokens providing different incentives.
 
@@ -57,8 +54,7 @@
   
   The next aim of the project is to extend the research of multi-agent cryptoeconomic communities further, develop new systems based on the feedback from the initial simulations and perhaps provide feedback to the TokenSPICE community where appropriate. After this project has finished, its conclusion should be a detailed report on my findings.
   
-  ### Timeline 
-  Describe the timeline in brief. Then fill out the table below describing how you will break up work over the period of the fellowship.
+  ### Timeline
 
 | Week      | Activity |
 | ----------- | ----------- |
@@ -76,32 +72,31 @@
 | 12      | Deliverable : final project report,   **Submit Final Report + Code/Materials on Discourse #pulse**    |
 
 ### Plan for Communication with Mentor
-What is the plan to communicate with your mentor? What forms will you use and how regularly will you meet?
 
 Communication with the mentor will take place online, primarily via Zoom and Discord. Regular meetings would initially be held weekly and in the second half of the fellowship on a bi-weekly basis. Furthermore, I would regularly update my mentor through text and additional meetings may take place if they are required.
 
 ### Plans to Continue with Project
-Are you interested in continuing to work on the project, either as a support role or expanding activities/features?
 
 I am extremely interested in the development of a more efficient and fair science community and I would very much like to contribute to its development even after this fellowship.
 
 ## Candidate Details
 
 ### Motivation
-Why are you working on this project?
+
 I believe science will greatly benefit the adoption of blockchain technology and decentralization in general. Opscientia's mission strongly coincides with my personal values and modeling token ecosystems can provide real insight into how to develop the best possible decentralized science community.
 
 ### Background
-How does your background make you a good fit for this project?
+
 I an undergraduate mathematics and physics student and I presume these fields will help me in solving the problem of modeling token communities and value representation. Furthermore, I have experience with machine learning development and data analysis in Python, which may also prove useful when working with TokenSPICE.
 
 ### Working time and commitments
-How much time do you plan to committ to this? Are there potential conflicts? How will you navigate issues if you reach a block and can't continue on your own?
 
 I plan on devoting 15-20 hours per week on this project. During the fellowship, I will be attending university where I am a full-time student, however, I see no reason why I cannot fit this commitment into my schedule. If any issues arise, my first point of contact would be my mentor.
 
 ### Curricula Vitae
-(link to your CV, social media, or portfolio)
+
+[CV](https://drive.google.com/file/d/1slxxukIgx6tDw3eqXy2s9hnNnEU-wSEK/view?usp=sharing)
 
 ### References
-Please list any references, software packages, or other resources in APA format
+
+[TokenSPICE](https://github.com/tokenspice/tokenspice)
