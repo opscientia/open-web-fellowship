@@ -1,4 +1,4 @@
-# Opscientia Open Web Fellowship: \<PROJECT TITLE>
+# Opscientia Open Web Fellowship: Token Communities
   name: Jakub Smekal, email: jakub.smekal@gmail.com, location: Durham, United Kingdom, timezone: GMT, discordID: #3317, discourseID: 
   smejak, current role: student, Natural Sciences, Durham University, 2nd year
   
