@@ -59,17 +59,17 @@
 | Week      | Activity |
 | ----------- | ----------- |
 | 1      | Deliverable : get familiar with TokenSPICE and begin the development of the first token ecosystem  |
-| 2      | Deliverable :  set KPI's, sources of value/commodities, reward functions, schema of first token ecosystem  |
-| 3      | Deliverable : complete the development of the first token ecosystem and run the simulation |
-| 4      | Deliverable : evaluate the results of the first simulation, begin developing new agent classes for different token communities |
-| 5      | Deliverable : new agent classes, schema of new token ecosystems |
-| 6      | Deliverable : development of ecosystems, simulations, **Mid-term performance review / community feedback** |
-| 7      | Deliverable : evaluation of simulations, improvement of agents/netlists |
-| 8      | Deliverable : a graph of all simulations run so far with their respective parameters, design of an optimal ecosystem based on previous experiments |
-| 9      | Deliverable : development of the final netlist and simulation |
-| 10      | Deliverable : evaluation of the simulation, identify areas to improve |
-| 11      | Deliverable : create a guide for using TokenSPICE, |
-| 12      | Deliverable : final project report,   **Submit Final Report + Code/Materials on Discourse #pulse**    |
+| 2      | Deliverable :   schema of first token ecosystem, architecture design, development of agents |
+| 3      | Deliverable : set KPI's, develop SimStrategy, reward functions, develop the first token ecosystem (netlist) |
+| 4      | Deliverable : finish development of first ecosystem (+debugging), evaluate the results of the first simulation |
+| 5      | Deliverable : begin developing new agent classes for new simulation (increased complexity with DataTokens), schema of new token ecosystems, think about sources of value/commodities  |
+| 6      | Deliverable : development of EVM in the loop simulation, create presentation current results, **Mid-term performance review / community feedback** |
+| 7      | Deliverable : finish development of EVM in the loop opsci simulation (+debugging) and run the simulation |
+| 8      | Deliverable : analysis of results, points for improvement |
+| 9      | Deliverable : a graph of all simulations run so far with their respective parameters, befin design of the final token ecosystem based on previous experiments |
+| 10      | Deliverable : development of the final simulation netlist |
+| 11      | Deliverable : finish development of final simulation, evaluate results, work on putting all results together for the final project report |
+| 12      | Deliverable : final project report and presentation,   **Submit Final Report + Code/Materials on Discourse #pulse**    |
 
 ### Plan for Communication with Mentor
 
