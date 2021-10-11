@@ -28,14 +28,33 @@
   ### Minimum Deliverables
   What are the general minimum deliverables? How do they address the goal?
 
-  #### Work on Textile Grant for multi-tiered storage
-  This will involve working through the milestones for increasing amounts of data stored on filecoin through auctions with miners, eventually building up to 250TB+ of data. The main objective is to build out and iterate the flow of the storage backend, which will form the data layer of the open science bay.
+  #### Work on Textile Haggle Grant for multi-tiered storage
+  Opscientia has been offered a [grant](https://textile.notion.site/Haggle-Grants-for-Filecoin-Users-a07adc3375de479aa85a1aae7c0b5e42#0f1a4913fc6a42659e63a0276fd1b8ac) by the people at Textile to stress-test their tools for long-term data archival on Filecoin. The milestones are structured with the intent of testing storage of increasing amounts of data on filecoin through auctions with miners - starting out with 2GB and eventually building up to 250TB+ of data (we will begin with the [open datasets indexed by datalad](http://datasets.datalad.org/)). The main objective is to build out and iterate the flow of the storage backend, which will form the data layer of the open science bay.
 
-  I will test out different file server and node configurations for making the data highly acessible to miners, and perform rigorous benchmarks for data ingress/egress, redundancy, node discoverability, etc. This will mesh well with the next deliverable - a Data Dashboard that will help data creators (researchers) to keep tabs on relevant metrics for their datasets.
+  I will test out different file server and node configurations for making the data highly acessible to miners, and perform rigorous benchmarks for data ingress/egress, redundancy, node discoverability, etc. This will mesh well with the next deliverable - a Data Dashboard that will help data creators (researchers) to keep tabs on relevant metrics for their datasets. I will extensively document the process - noting down steps taken, any pitfalls, and thoughts for future changes.
 
-  #### Researcher dashboard - metrics, uploading, validation of data
-  This will be targeting the collaboration with DANDI. From the perspective of the data creator (researcher), this dashboard will facilitate uploading data to different web3 storage infrastructures. By default, data will be stored on IPFS-based textile storage, but the user will also have the option to order long-term, redundant storage on filecoin through auctions. In the back-end, this will use Powergate for storage deals and tracking metrics (level of redundancy, availability, cost projections, etc).
+  #### Researcher dashboard for metrics, uploading, validation of data (Filecoin Grant)
 
+  This will be targeting the collaboration with DANDI lab at MIT. From the perspective of the data creator (researcher), this dashboard will facilitate uploading data to different web3 storage infrastructures. By default, data will be stored on IPFS-based textile storage, but the user will also have the option to order long-term, redundant storage on filecoin through auctions. In the back-end, this will use Powergate for storage deals and tracking metrics (level of redundancy, availability, cost projections, etc).
+
+  Rough goalposts:
+  - Frontend mockup - hash out exact flows we want, how to organize info, metadata we want to show
+  - what metadata should we associate with the stored datasets? How do we integrate this with the open dataset index (more detail in a later section)
+  - integrate data wallet (mainly for SSO and provenance reasons)
+  - test flows with small sample datasets, create short demo
+
+
+  If we do this right it will be the first and largest example of scientific data being hosted on IPFS. This will provide proof that large amounts of sensitive data can be stored in a decentralised manner and will provide the validation needed for institutions such as MIT to start moving away from centralised storage systems. Feedback on prototypes will play a critical role in determining the features needed and for having the best UX possible - the focus is on the users!
+
+  #### Tools and bridges for Web3 Science
+  Datawallet, Identity stuff - probably using ERC1155 or related standards. Research data object.
+  While the focus of this proposal is on engineering the storage core for Opscibay, I will also assist the rest of the team with hashing out ideas and development work towards the larger Data Marketplace and Automated Knowledge Factories concepts. This will involve the following projects:
+  - Developing the next iteration of the datawallet
+  - Metadata structure for data provenance, versioning, and tokenization (will probably use ERC1155 nested token standard, or something similar)
+  - Developing the concept of the Scientific Data Object:
+    - Raw data
+    - Functions for basic pre-processing - these auto-execute after each update to the raw data and store result on quick-access IPFS storage
+    -
 
   <!-- #### Extraction of DataLad metadata for discoverability
   All datalad datasets have a shallow component (the structure and metadata) and the deep component (the actual raw data readings). The majority of storage and transfer costs are due to the raw component due to its size. (Dig Up notes from meetings :) )
@@ -44,42 +63,21 @@
 
   The long term goal is to make a decentralized index of datasets from all scientific disciplines. If we combine this with datalad's versioning capabilities and proof-of-publication and provenance tracking using tools like Ceramic/Textile, we can build a decentralized history of contributions and participation for scientific research. -->
 
+  ### Other ideas we are still developing
+
   #### Decentralized index of open datasets
 
-  - on-ramp to transfer datasets from web2 -> web3 storage
-  - datalad is a dataset aggregator, that can be used to serach for some specific kinds of datasets.
-  - abstract the concept of a sibling - include publishing to Filecoin (thru pow) in the pipeline - through a new remote or a script.
-  - Short term target datalad, longer term goal is to build a meta-aggregator (Probably ocean things)
-
-  goal #1 - grab all data from datalad index and archive on Filecoin (this is part of textile grant)
-  goal #2 - researcher pipeline - from the dashboard or through CLI, publish to datalad while also having a(multiple) copy(ies) on Filecoin for archival. Most researchers just want to prevent accidental deletion of their data when they're playing with datalad / git-annex
-
-  Idea #1 - Meta-aggregator of datasets, with aggregator-agnostic, field-agnostic versioning and provenance
-  - 3-part system
-    - Orchestrator - manages all aggregators, can read from / write to aggregators. Master node that tracks all the places where the data is stored (gcloud, filecoin, ipfs, AWS, university server, etc.).
-    - Standards validator - check for conformity to data standards. Ex: BIDS-validator for bids data, can be NWB, tabular, unstructured.
-    - Scheduled Agent checks data, balancer function ensures replication. when threshold crossed. This can also be a post-update job that runs automatically right before publication. Thinking beyond standards validation, we can think of processing raw data into pre-processed, more usable data automatically - a set of analyses that always run right after publication. Since most prople don't deal directly with raw data, we can use long-haul archival (filecoin) for raw, and use IPFS / other quick-access infra for processed data. The processing can happen through Ocean's compute2data for example, but this is getting a bit ahead of ourselves.
-
-    ^ See this meta-aggregator + validator + scheduled agent as being part of the research data object.
-    - all manual tasks automated, if datasets conform to standards.
-    - data always checked before publication.
-    - Proof-of-Publication intricately linked with automatic processing of data + analyses that run whenever data updated.
-    - can plug into the executablle notebooks idea that we were tossing around.
-
-  #### Tools and utilities for Web3 Science
-  Datawallet, Identity stuff - probably using ERC1155 or related standards. Research data object.
 
   ### Timeline
-  Sep 20 - Dec 12 (12 weeks)
 
 | Week      | Activity |
 | ----------- | ----------- |
-| 1      | Textile Milestone 2 - first real auction      |
+| 1      | Textile Milestone 2 - submit first real auction      |
 | 2      | Textile Milestone 3 - 1 TiB+ of data archived on Filecoin      |
-| 3      | Textile Milestone 4 - 10 TiB+ data on Filecoin      |
-| 4      | Textile Milestone 5 (final) - 250 TiB+ data on Filecoin       |
-| 5      | Deliverable : Description of work       |
-| 6      | Deliverable : Description of work, **Mid-term performance review / community feedback**       |
+| 3      | Researcher dashboard - design v1 - hosting on IPFS + option to archive on Filecoin      |
+| 4      | Textile Milestone 4 - 10 TiB+ data on Filecoin       |
+| 5      | Textile Milestone 5 (final) - 250 TiB+ data on Filecoin       |
+| 6      | , **Mid-term performance review / community feedback**       |
 | 7      | Deliverable : Description of work       |
 | 8      | Deliverable : Description of work       |
 | 9      | Deliverable : Description of work       |
@@ -109,4 +107,4 @@ How does your background make you a good fit for this project?
 - [Twitter](twitter.com/kashyap_kinshuk)
 
 ### References
-Please list any references, software packages, or other resources in APA format
+_None so far_
