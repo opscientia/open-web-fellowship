@@ -10,9 +10,9 @@
   **Category**: cloud-services
 
   ## Overview
-  Reliable decentralized storrage is at the core of the future of open science. Despite the deluge of newly created scientific data in the past few decades, most of it remains inaccessible or unusable to most scientists due to lack of storage and transfer infrastructure. Most data gathers dust in data silos, and a lot of it gets deleted due to misinterpreted regulations.
+  Reliable decentralized storage is at the core of the future of open science. Despite the deluge of newly created scientific data in the past few decades, most of it remains inaccessible or unusable to most scientists due to lack of storage and transfer infrastructure. Most data gathers dust in data silos, and a lot of it gets deleted due to misinterpreted regulations.
 
-  There need to be options for long term redundant data storage for archival, as well as short term low-latency storage for interactive access (for example, using data viewers like neuroglancer for visualizing very large neuroimaging datasets). A multi-tiered storage infrastructure which uses Filecoin for long term archival, and has the option to pull data into very low-latency IPFS storage for quick access is ideal. As part of this fellowship, I will take point on the Haggle Grant partnership with Textile for testing out Filecoin deals for storing approximately 250TB of open-access neuroimaging data. This will help Opscintia to converge on the data pipeline for Opscibay - the ecosystem of scientific data management tools which are optimized for easy integration with the larger web3 ecosystem.
+  There need to be options for long term redundant data storage for archival, as well as short term low-latency storage for interactive access (for example, using data viewers like neuroglancer for visualizing very large neuroimaging datasets). A multi-tiered storage infrastructure which uses Filecoin for long term archival, and has the option to pull data into very low-latency IPFS storage for quick access is ideal. As part of this fellowship, I will take point on the Haggle Grant partnership with Textile for testing out Filecoin deals for storing approximately 250TB of open-access neuroimaging data. This will help Opscientia to converge on the data pipeline for Opscibay - the ecosystem of scientific data management tools which are optimized for easy integration with the larger web3 ecosystem.
 
 
 
@@ -31,7 +31,7 @@
   #### Work on Textile Grant for multi-tiered storage
   This will involve working through the milestones for increasing amounts of data stored on filecoin through auctions with miners, eventually building up to 250TB+ of data. The main objective is to build out and iterate the flow of the storage backend, which will form the data layer of the open science bay.
 
-  I will test out different file server and node configurations for making the data highly acessible to miners, and perform rigorous benchmarks for data ingress/egress, redundancy, node discoverability, etc. This will dovetail with the next deliverable - a Data Dashboard that will help data creators (researchers) to keep tabs on relevant metrics for their datasets.
+  I will test out different file server and node configurations for making the data highly acessible to miners, and perform rigorous benchmarks for data ingress/egress, redundancy, node discoverability, etc. This will mesh well with the next deliverable - a Data Dashboard that will help data creators (researchers) to keep tabs on relevant metrics for their datasets.
 
   #### Researcher dashboard - metrics, uploading, validation of data
   This will be targeting the collaboration with DANDI. From the perspective of the data creator (researcher), this dashboard will facilitate uploading data to different web3 storage infrastructures. By default, data will be stored on IPFS-based textile storage, but the user will also have the option to order long-term, redundant storage on filecoin through auctions. In the back-end, this will use Powergate for storage deals and tracking metrics (level of redundancy, availability, cost projections, etc).
@@ -74,10 +74,10 @@
 
 | Week      | Activity |
 | ----------- | ----------- |
-| 1      | Deliverable : Description of work       |
-| 2      | Deliverable : Description of work       |
-| 3      | Deliverable : Description of work       |
-| 4      | Deliverable : Description of work       |
+| 1      | Textile Milestone 2 - first real auction      |
+| 2      | Textile Milestone 3 - 1 TiB+ of data archived on Filecoin      |
+| 3      | Textile Milestone 4 - 10 TiB+ data on Filecoin      |
+| 4      | Textile Milestone 5 (final) - 250 TiB+ data on Filecoin       |
 | 5      | Deliverable : Description of work       |
 | 6      | Deliverable : Description of work, **Mid-term performance review / community feedback**       |
 | 7      | Deliverable : Description of work       |
